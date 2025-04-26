@@ -1,9 +1,16 @@
+#
+#
+#
 
-all: first
+TARGET = first
 
-first: first.cbl
-	gcobol -o first first.cbl
+all: ${TARGET}
 
-run: first
-	./first
-	
+first: ${TARGET}.cbl
+	gcobol -o ${TARGET} ${TARGET}.cbl
+
+run: ${TARGET}
+	./${TARGET}
+
+clean:
+	rm -rf ${TARGET}
