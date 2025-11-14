@@ -4,9 +4,9 @@
        environment division.       *> second
        input-output section.
        file-control.
-      /    TODO
+*          TODO
        i-o-control.
-      /    TODO
+*          TODO
 
        data division.              *> Third
        working-storage section.

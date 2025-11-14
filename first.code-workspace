@@ -4,5 +4,15 @@
 			"path": "."
 		}
     ],
-    "settings": {}
+	"settings": {
+		"coboleditor.metadata_symbols": [
+			"helloworld,first.cbl,1"
+		],
+		"coboleditor.metadata_entrypoints": [],
+		"coboleditor.metadata_types": [],
+		"coboleditor.metadata_files": [
+			"1763134041518,first.cbl"
+		],
+		"coboleditor.metadata_knowncopybooks": []
+	}
 }
